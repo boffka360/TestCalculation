@@ -25,7 +25,8 @@ public class Main {
             throw new Exception();
 
         for (String number:numbers)
-            if (Integer.parseInt(number) > 10 && Integer.parseInt(number) < 1)
+            if (Integer.parseInt(number) > 10 || Integer.parseInt(number) < 1)
+
                 throw new Exception();
 
         switch (symbol) {
