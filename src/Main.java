@@ -26,7 +26,6 @@ public class Main {
 
         for (String number:numbers)
             if (Integer.parseInt(number) > 10 || Integer.parseInt(number) < 1)
-
                 throw new Exception();
 
         switch (symbol) {
